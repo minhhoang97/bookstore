@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 28, 2018, 7:04:56 PM
+    Author     : Hoàng-Naga
+*/
+header{
+    width: 100%;
+    height: 100px;
+}
+header .bs_logo{
+    line-height: 100px;
+}
+header .bs_search{
+    margin-top: 34px;
+}
+header .bs_login{
+    line-height: 100px;
+}
+
+section .bs_menu{
+    background: #189EFF;
+}
+section .bs_menu .bs_menu_left span{
+    color: #fff;
+}
+section .bs_menu .bs_menu_right a{
+    color: #fff;
+}
+section .bs_list{
+    height: auto;
+}
+h2{
+    text-align: center;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+

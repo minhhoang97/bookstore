@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Đăng nhập</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="bootstrap/jquery/jquery.min.js"></script>
+        <link rel="stylesheet" href="css/cssdn.css">
+    </head>
+    <body>
+        <header class="container-fluid">
+            <div class="row _header">
+                <div class="col-md-4 col-xs-12 bs_logo">
+                    <a href="http://localhost:8383/formmain/index.html">
+                        <img src="image/logo.png" alt="Book Store">
+                    </a>
+                </div>
+                <div class="col-md-4 col-xs-12 bs_search">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Từ khóa...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Tìm kiếm</button>
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-4 col-xs-12 bs_login">
+                    <div class="text-right">
+                        <a title="Giỏ hàng" class="btn btn-default">
+                            <i class="glyphicon glyphicon-shopping-cart"></i>
+                        </a>
+                        <a class="btn btn-default" href="http://localhost:8383/formmain/dangky.html">
+                            <i class="glyphicon glyphicon-edit"></i>
+                            <span>Đăng ký</span>
+                        </a>
+                        <a class="btn btn-default" href="http://localhost:8383/formmain/dangnhap.html">
+                            <i class="glyphicon glyphicon-user"></i>
+                            <span>Đăng nhập</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="navbar navbar-default bs_menu">
+                        <div class="col-md-3 col-xs-4 bs_menu_left">
+                            <div class="navbar-header">  
+                                <span class="navbar-brand">
+                                    <i class="glyphicon glyphicon-menu-hamburger"></i>
+                                    <span>
+                                        Danh mục sản phẩm
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-xs-8 bs_menu_right">
+                            <ul class="nav navbar-nav">
+                                <li><a href="http://localhost:8383/formmain/index.html">Trang chủ</a></li>
+                                <li><a href="#">Tin tức</a></li>
+                                <li><a href="#">Khuyến mãi</a></li>
+                                <li><a href="#">Liên hệ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-xs-4 bs_danhmuc">
+                    <a class="list-group-item" href="#">Sách Văn học</a>
+                    <a class="list-group-item" href="#">Sách Kinh tế</a>
+                    <a class="list-group-item" href="#">Sách Thiếu nhi</a>
+                    <a class="list-group-item" href="#">Sách Kỹ năng - Sống đẹp</a>
+                    <a class="list-group-item" href="#">Sách Bà mẹ - Em bé</a>
+                    <a class="list-group-item" href="#">Sách Tham Khảo</a>
+                    <a class="list-group-item" href="#">Sách Học Ngoại Ngữ</a>
+                    <a class="list-group-item" href="#">Từ điển</a>
+                    <a class="list-group-item" href="#">Giáo trình Đại Học - Cao Đẳng</a>
+                    <a class="list-group-item" href="#">Truyện Tranh, Manga, Comic</a>
+                    <a class="list-group-item" href="#">Sách Kiếm Thức Tổng Hợp</a>
+                    <a class="list-group-item" href="#">Sách Lịch sử</a>
+                    <a class="list-group-item" href="#">Sách Khoa Học - Kỹ Thuật</a>
+                    <a class="list-group-item" href="#">Điện Ảnh - Nhạc - Họa</a>
+                    <a class="list-group-item" href="#">Sách Tôn Giáo - Tâm Linh</a>
+                    <a class="list-group-item" href="#">Sách Văn Hóa - Du lịch</a>
+                    <a class="list-group-item" href="#">Sách Chính Trị - Pháp Lý</a>
+                    <a class="list-group-item" href="#">Sách Nông-Lâm-Ngư Nghiệp</a>
+                    <a class="list-group-item" href="#">Sách Công Nghệ Thông Tin</a>
+                    <a class="list-group-item" href="#">Sách Y Học</a>
+                    <a class="list-group-item" href="#">Sách Thường Thức - Đdời Sống</a>
+                    <a class="list-group-item" href="#">Sách Tâm lý - Giới tính</a>
+                </div>
+                <div class="col-md-9 col-xs-8 bs_sanpham">
+                    <div class="row">
+                        <form class="col-xs-12 col-md-4 well well-sm col-md-offset-4">
+                            <h2>Đăng nhập</h2>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="glyphicon glyphicon-user"></i>
+                                        </span>
+                                        <input class="form-control" name="username" placeholder="Tên đăng nhập or Email" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <div class="input-group">
+                                        <span class="input-group-addon">
+                                            <i class="glyphicon glyphicon-lock"></i>
+                                        </span>
+                                        <input class="form-control" name="password" placeholder="Mật khẩu" type="password">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-6 col-md-6">
+                                    <button class="btn btn-lg btn-primary btn-block">Đăng nhập</button>
+                                </div>
+                                <div class="col-xs-6 col-md-6">
+                                    <button class="btn btn-lg btn-primary btn-block">Quên mật khẩu</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section><br>
+        <footer class="container-fluid">
+            <div class="well">
+                <div class="row">
+                    <div class="col-md-5 col-xs-5">
+                        <address>
+                            <strong>Địa chỉ: </strong>
+                            Phú Yên<br>
+                            <strong>Số điện thoại: </strong>01666141936<br>
+                            <strong>Email: </strong><a href="">2015cn2@gmail.com</a>
+                        </address>
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="">Trang chủ</a>
+                            </li>
+                            <li>
+                                <a href="">Tin tức</a>
+                            </li>
+                            <li>
+                                <a href="">Khuyến mãi</a>
+                            </li>
+                            <li>
+                                <a href="">Liên hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 col-xs-4">
+
+                    </div>
+                    <div class="col-md-12 col-sx-12">
+                        <p class="text-center">copyright@2015cn2@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
